@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/vue.js"></script>
+</head>
+<body>
+<header class="header blue-bg">
+    <div class="container-fluid  g-0">
+        <nav class="my-navbar row navbar navbar-expand-lg navbar-dark justify-content-end">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="col-md-3">
+                    <a class="navbar-brand" href="#">
+                        <img src="img/4-logo-sol.svg" alt="" width="70px" height="70px">
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <ul class="my-navbar navbar  navbar-dark mb-2 me-auto mb-lg-0">
+                        <li class="li-size  nav-item dropdown">
+                            <a class="white-text nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                               role="button"
+                               data-bs-toggle="dropdown" aria-expanded="false">
+                                Дисципліни
+                            </a>
+                            <ul id="dropDown1" class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li class="li-size"><a class="dropdown-item" href="#">
+                                    <img src="img/vocalIcon.ico" alt="" class="d-inline-block">
+                                    Вокал</a></li>
+                                <li class="li-size"><a class="dropdown-item" href="#">
+                                    <img src="img/guitarIcon.ico" alt="" class="d-inline-block">
+                                    Гітара</a>
+                                </li>
+                                <li class="li-size"><a class="dropdown-item" href="#">
+                                    <img src="img/pianoIcon.ico" alt="" class="d-inline-block">
+                                    Фортепіано</a></li>
+                                <li class="li-size"><a class="dropdown-item" href="#">
+                                    <img src="img/drumsIcon.ico" alt="" class="d-inline-block">
+                                    Барабани</a></li>
+                            </ul>
+                        </li>
+                        <li class="li-size  nav-item">
+                            <a class="nav-link active white-text " aria-current="page"
+                               href="#">Сертифікат</a>
+                        </li>
+                        <li class="li-size  nav-item">
+                            <a class="nav-link white-text " href="#">Магазин</a>
+                        </li>
+                        <li class="li-size  nav-item">
+                            <a class="nav-link white-text " href="#">Хто ми?</a>
+                        </li>
+                        <li class="li-size  nav-item">
+                            <a class="nav-link white-text " href="#">F.A.Q.</a>
+                        </li>
+                        <li class="li-size  nav-item">
+                            <a class="nav-link white-text " href="#">Контакти</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 offset-md-1 d-flex ">
+                    <a  href="tel:+380660738483" class="my-nav-btn btn btn-outline-success white-text fw-bold" type="button">
+                        Зателефонувати нам
+                    </a>
+                    <div class="dropdown ">
+                        <a class="white-text  nav-link dropdown-toggle" href="" id="navbarDropdownLanguage"
+                           role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            UA
+                        </a>
+                        <ul id="dropDown2" class=" my-navbar dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li class="li-size "><a class="dropdown-item" href="#">UA</a></li>
+                            <li class="li-size "><a class="dropdown-item" href="#">RU</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="header-main-content padding-top text-center">
+
+
+            <img src="" alt="">
+            <h1 class="white-text">ВЧИМО МУЗИЦІ. ВСІХ</h1>
+            <img id="logoS" src="img/1.logo-S.svg" alt="">
+
+            <img id="logo" src="img/3.logo.svg" alt="">
+            <p class="important-text-size white-text">
+                Sol' — це сучасна музична школа.
+                <br>Наші викладачі — практики. Свій досвід вони отримали в
+                <br>конкурсах,
+                фестивалях, майстер-класах і відомих групах.
+            </p>
+            <button class="btn button-size bg-white my-5">Спробувати безкоштовно</button>
+            <img id="logo0" src="img/1.logo-O.svg" alt="">
+        </div>
+        <div class="hi-hat text-center">
+            <img class="img-fluid" src="/img/5.hi-hat.webp" alt="">
+        </div>
+    </div>
+</header>
+<div class="main-content">
+    <section class="section-padding our-disciplines">
+        <div class="row g-0">
+            <div class="col-md-6">
+                <h2 class="section-title">НАШІ ДИСЦИПЛІНИ</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3 col-sm-6 text-center">
+                <img class=" img-fluid" src="img/vocal.jpg" alt="">
+                <a href="" class="mt-3 d-block"><span>ВOКАЛ →</span></a>
+            </div>
+            <div class="col-md-3 col-sm-6 text-center">
+                <img class=" img-fluid" src="img/barabani-uroki.jpg" alt="">
+                <a href="" class="mt-3 d-block">БАРАБАНИ →</a>
+            </div>
+            <div class="col-md-3 col-sm-6 text-center">
+                <img class=" img-fluid" src="img/obuchenie-gitare.jpg" alt="">
+                <a href="" class="mt-3 d-block">ГІТАРА →</a>
+            </div>
+            <div class="col-md-3 col-sm-6 text-center">
+                <img class=" img-fluid" src="img/piano-course.jpg" alt="">
+                <a href="" class="mt-3 d-block">ФОРТЕПІАНО →</a>
+            </div>
+        </div>
+
+    </section>
+    <section class="learn section-padding">
+        <div class="row g-0">
+            <div class="col-md-6">
+                <h2 class="section-title">ВЧИМО ВСІХ. <br>ТАК, УСІХ</h2>
+            </div>
+            <div class="col-md-6 mt-4">
+                <p class="description-text-size">Ми розуміємо: найстрашніше — зважитися. Але ми готові бути поруч і
+                    довести, що кожен наш студент
+                    здатний створювати музику. Ми за кайф від процесу, а не технічний результат і прогрес заради
+                    прогресу. І ми знаємо: результати обов'язково прийдуть.</p>
+                <button class="blue-bg white-text button-size">СПРОБУВАТИ БЕЗКОШТОВНО</button>
+            </div>
+        </div>
+        <div class="guitar-image padding-top row g-0">
+            <div class="col-md-8 offset-md-3">
+                <img class="mw-100" src="img/yamaha.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="comfort">
+        <div class="row padding-top">
+            <div class="col-md-6">
+                <h2 class="section-title">У НАС КОМФОРТНО</h2>
+            </div>
+        </div>
+        <div class="row padding-top">
+            <div class=" col-md-6 ">
+                <img class="img-fluid" src="img/piano-comfort.webp" alt="">
+            </div>
+            <div class=" col-md-4">
+                <h3 class="description-text-size fw-bold">ІНДИВІДУАЛЬНІ УРОКИ</h3>
+                <p class="description-text-size">Ми віримо, що заняття в індивідуальному форматі ефективніші. Так вся
+                    увага викладача зосереджена
+                    тільки на вас.</p>
+                <h3 class="description-text-size fw-bold">АВТОРСЬКА МЕТОДИКА</h3>
+                <p class="description-text-size">До навчального плану ми ретельно відібрали вправи з десятків західних
+                    підручників та принципи великих
+                    музикантів і викладачів.</p>
+            </div>
+        </div>
+        <div id="toChangeChild" class="row padding-top ">
+            <div class=" col-md-4 order-md-first order-sm-last">
+                <h3 class="description-text-size fw-bold">КРАЩЕ ОБЛАДНАННЯ ТА ІНСТРУМЕНТИ</h3>
+                <p class="description-text-size">У нас є все і все завжди в порядку. Бо ми хочемо, щоб студенти одразу
+                    звикали до хорошого.</p>
+                <h3 class="description-text-size fw-bold">ЗАТИШНІ КЛАСИ</h3>
+                <p class="description-text-size">Кожна аудиторія приємна для очей і для вух. І навіть на дотик.</p>
+            </div>
+            <div class=" col-md-6 offset-md-2 order-md-last order-sm-first">
+                <img class="img-fluid" src="img/room.webp" alt="">
+            </div>
+        </div>
+        <!--        <button onclick="switchDivs()">SWITCH</button>-->
+        <div class="row padding-top">
+            <div class=" col-md-6 ">
+                <img class="img-fluid" src="img/drums-comfort.webp" alt="">
+            </div>
+            <div class=" col-md-4">
+                <h3 class="description-text-size fw-bold">ЗРОЗУМІЛА СИСТЕМА ОПЛАТИ</h3>
+                <p class="description-text-size">Оплатити уроки можна онлайн. А телеграм-бот нагадає, коли час платити і
+                    розклад.</p>
+                <h3 class="description-text-size fw-bold">ПЕРСОНАЛЬНИЙ ГРАФІК</h3>
+                <p class="description-text-size">Із кожним студентом ми підбираємо зручний для нього час. Навіть якщо
+                    ввечері. Або вранці. Чи
+                    перенести на інший день.</p>
+            </div>
+        </div>
+    </section>
+    <section class="school-sol section-padding text-center">
+        <h3 class="small-title">#ШКОЛАСОЛЬ</h3>
+        <div class="row padding-top">
+            <div class="col-md-3">
+                <img src="img/piano.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-3">
+                <img src="img/drums-guy.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-3">
+                <img src="img/lera-dasha.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-3">
+                <img src="img/bass.jpg" alt="" class="img-fluid">
+            </div>
+        </div>
+        <div class="row padding-top">
+            <div class="col-md-3">
+                <img src="img/score.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-3">
+                <img src="img/sert.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-3">
+                <img src="img/piano-girl.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-3">
+                <img src="img/dima.jpg" alt="" class="img-fluid">
+            </div>
+        </div>
+    </section>
+
+</div>
+<div class="sertificate blue-bg container-fluid">
+    <div class="container">
+        <div class="row section-padding">
+            <div class="col-md-6">
+                <h3 class="important-text-size white-text mt-3">У НАС Є КЛАСНІ ПОДАРУНКОВІ СЕРТИФІКАТИ</h3>
+            </div>
+            <div class="col-md-3 offset-md-3">
+                <a href="">
+                    <button class="btn button-size bg-white">ХОЧУ СЕРТИФІКАТ</button>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="reviews section-padding text-center">
+    <h3 class="small-title">СОЛОНІ ВІДГУКИ</h3>
+    <div id="reviews-carousel" class="carousel slide carousel-dark" data-bs-interval="false">
+        <div class="carousel-inner">
+            <div class="carousel-item  active">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 offset-md-2"><img class=" img-fluid" src="img/violetta.webp"
+                                                               alt="First slide"></div>
+                        <div class="col-md-4 review-text"><p>Всегда очень домашняя и дружественная атмосфера.
+                            Обожаю приходить сюда после тяжёлого дня и перезагружаться занимаясь любимым вокалом.
+                            Отличные, профессиональные преподаватели, моя любимая Виталия, миллион поцелуев!</p>
+                            <h5>Виолетта Крячко</h5>
+                            <span>Про уроки вокала</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 offset-md-2">
+                            <img class="img-fluid" src="img/julia.webp" alt="Second slide">
+                        </div>
+                        <div class="col-md-4 review-text">
+                            <p>Очень классная школа !!! Ребенок счастлив, что учится здесь. С удовольствием ходит на
+                                занятия, и теперь мы все время поем. Индивидуальный подход, креативные преподаватели.
+                                Могу порекомендовать деткам и взрослым посетить эту школу и убедиться в
+                                вышесказанном</p>
+                            <h5>Юлия Склярова</h5>
+                            <span>Про уроки вокала</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-12 offset-md-2">
+                            <img class="img-fluid" src="img/dmitriy.webp" alt="Third slide">
+                        </div>
+                        <div class="col-md-4 col-sm-12  review-text">
+                            <p>Место, где вы будете материться на стены, себя, аппаратуру, а терпение учителей всё равно
+                                будет в диапазоне «от Тома Хэнкса до Матери Терезы». Ближе к Матери Терезе, конечно же.
+                                Место, где начальство поёт хиты поп эстрады лучше звёзд поп эстрады.
+                                Место, где одинаково хорошо звучит Ed Sheeran и Rage Against The Machine.
+                                Место, куда приятно просто зайти выпить кофе и побыть в хорошей компании.
+                                Sol'яная шахта, в которой происходит добыча музыкальных знании. Но, как и при настоящей
+                                добыче,— придётся попотеть.</p>
+                            <h5>Дима Гарань</h5>
+                            <span>Про уроки игры на барабанах</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 offset-md-2">
+                            <img class="img-fluid" src="img/julia-drums.webp" alt="Third slide">
+                        </div>
+                        <div class="col-md-4 review-text">
+                            <p>Вся моя жизнь была связана с музыкой, хотя это и не было моей профессией и
+                                образования музыкального я не получила. Понемногу играла на всем, что попадало в
+                                руки, с гитарой лет 15 не расставалась. Но мечтой всей жизни были барабаны. Для меня
+                                это казалось фантастикой и чем-то нереальным, слишком сложным. В один момент увидела
+                                у знакомой фотку за установкой и сразу вспомнила о своей мечте. На следующий день по
+                                ее рекомендации позвонила в Соль и записалась на ближайшее время... и влюбилась. В
+                                атмосферу, в барабаны, в их отношение к студентам и к своему делу. Преподаватели
+                                школы Соль не только талантливейшие музыканты, но и педагоги с большой буквы.
+                                Каждого учителя я воспринимаю как друга, который всегда поддержит, поможет и уймёт
+                                вечного внутреннего критика. Удобное расположение, увлекательные мероприятия и
+                                лояльные цены прилагаются.</p>
+                            <h5>Юля Головина</h5>
+                            <span>Про уроки игры на барабанах</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" data-bs-target="#reviews-carousel" type="button"
+                data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" data-bs-target="#reviews-carousel" type="button"
+                data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#reviews-carousel" data-bs-slide-to="0"
+                    class="active reviews-indicators"
+                    aria-current="true" aria-label="Slide 1"></button>
+            <button class="reviews-indicators" type="button" data-bs-target="#reviews-carousel" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+            <button class="reviews-indicators" type="button" data-bs-target="#reviews-carousel" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            <button class="reviews-indicators" type="button" data-bs-target="#reviews-carousel" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+        </div>
+
+    </div>
+    <h3 class="more-about-us">БІЛЬШЕ — У НАШИХ СОЦМЕРЕЖАХ <br>
+        <a href="https://www.facebook.com/Solmusicshool">FACEBOOK</a> та
+        <a href="https://www.instagram.com/sol.music.school/">INSTAGRAM</a></h3>
+</div>
+
+<div class="row g-0">
+    <div class="col-md-6">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d82094.13293254001!2d36.20742525970985!3d49.984328677469044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a05998067935%3A0x7117e7ecdef08c6!2z0JzRg9C30YvQutCw0LvRjNC90LDRjyDRiNC60L7Qu9CwIC0g0KHQvtC70Yw!5e0!3m2!1sru!2sro!4v1649229805728!5m2!1sru!2sro"
+                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="contacts blue-bg col-md-6 text-start">
+        <div class="adress-phone">
+            <h4 class="white-text">вул. Плеханівська, 94а.<br>
+                5 хв. пішки від метро «Спортивна»</h4>
+            <p class="important-text-size mt-4 white-text">+38 (066) 073 84 83 <br>
+                <a class="white-text border-bottom" href="https://t.me/sol_school">Telegram</a>,
+                <a class="white-text border-bottom" href="viber://add?number=+380660738483">Viber</a></p>
+        </div>
+        <div class="works-hours">
+            <h5 class="description-text-size fw-bold mt-4 white-text">Заняття:</h5>
+            <span class="description-text-size white-text">щодня 9:00 — 21:00</span>
+            <h5 class="description-text-size fw-bold mt-4 white-text">Ресепшн:</h5>
+            <span class="description-text-size white-text">будні — із 10:00 до 18:00,<br>
+                сб — із 10:00 до 14:00 <br>
+               нд — вихідний</span>
+        </div>
+        <div class="social-media mt-4">
+            <a href="https://www.facebook.com/Solmusicshool"><img src="img/icons8-facebook.svg" alt=""></a>
+            <a href="https://www.instagram.com/sol.music.school/"><img src="img/icons8-instagram.svg" alt=""></a>
+        </div>
+
+    </div>
+</div>
+<footer>
+    <div class="container">
+        <div class="row py-4 g-0">
+            <div class="col-md-3 col-6">
+                <img class="logo-footer" src="img/4-logo-sol.svg" alt="">
+                <div class="footer-social-media mb-3">
+                    <a href="https://www.facebook.com/Solmusicshool"><img src="img/icons8-facebook.svg" alt=""></a>
+                    <a href="https://www.instagram.com/sol.music.school/"><img src="img/icons8-instagram.svg"
+                                                                               alt=""></a>
+                    <a href="https://www.youtube.com/channel/UCaek2LrsaIFhwXNZCqbQkfA"><img src="img/icons8-youtube.svg"
+                                                                                            alt=""></a>
+                    <a href="https://t.me/sol_school"><img src="img/icons8-telegram-app.svg" alt=""></a>
+
+                </div>
+                <p class="white-text">©2021 Sol. Modern Music School</p>
+            </div>
+            <div class="col-md-3 col-6 mt-4">
+                <h3 class="grey-title">ДИСЦИПЛІНИ</h3>
+                <ul class="list-unstyled">
+                    <li><a class="white-text" href="">Вокал</a></li>
+                    <li><a class="white-text" href="">Фортепіано</a></li>
+                    <li><a class="white-text" href="">Гітара</a></li>
+                    <li><a class="white-text" href="">Барабани</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-6 mt-4">
+                <h3 class="grey-title">ВСЕ ПРО ШКОЛУ</h3>
+                <ul class="list-unstyled">
+                    <li><a class="white-text" href="">Хто ми</a></li>
+                    <li><a class="white-text" href="">Відповіді на запитання</a></li>
+                    <li><a class="white-text" href="">Магазин</a></li>
+                    <li><a class="white-text" href="">Контакти</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-6 mt-4">
+                <h3 class="grey-title">ПРАВИЛА</h3>
+                <ul class="list-unstyled">
+                    <li><a class="white-text" href="">Ознайомитись з правилами</a></li>
+                    <li><a class="white-text" href="">Публіна оферта</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+<script src="main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/630d306679.js" crossorigin="anonymous"></script>
+</html>
